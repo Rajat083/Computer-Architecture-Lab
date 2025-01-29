@@ -66,7 +66,7 @@ string bias_rep(string number, string bias){
 		res += number[i];
 	}
 	if(res[0] == '0') return add_binary(res, bias);
-	else return add_binary(res, twos_comp(bias));
+	else return twos_comp(add_binary(res, bias));
 }
 
 int main(){
