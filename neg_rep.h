@@ -69,38 +69,38 @@ string bias_rep(string number, string bias){
 	else return twos_comp(add_binary(res, bias));
 }
 
-int main(){
-	string inp;
-	string bias;
-	cout<<"1. ones comp"<<endl;
-	cout<<"2. twos comp"<<endl;
-	cout<<"3. signed rep"<<endl;
-	cout<<"4. Bias rep"<<endl;
-	cout<<"5. enter input"<<endl;
-	int n;
-	cout<<"Enter input: ";
-	cin>>inp;
-	while(true){
-		cout<<endl<<"Enter choice: ";
-		cin >>n;
-		switch(n){
-			case 1:cout<<"ones comp: "<<ones_comp(inp)<<endl;
-				break;
-			case 2:cout<<"twos comp: "<<twos_comp(inp)<<endl;
-				break;
-			case 3:cout<<"signed rep: "<<signed_rep(inp)<<endl;
-				break;
-			case 4:
-				cout<<"Enter bias: ";
-				cin>>bias;
-				cout<<"Bias rep: "<<bias_rep(inp, bias)<<endl;
-				break;
-			case 5:cout<<"Enter input: ";
-				cin >> inp;
-				break;
-		}
-	}
-	return 0;
-}
+// int main(){
+// 	string inp;
+// 	string bias;
+// 	cout<<"1. ones comp"<<endl;
+// 	cout<<"2. twos comp"<<endl;
+// 	cout<<"3. signed rep"<<endl;
+// 	cout<<"4. Bias rep"<<endl;
+// 	cout<<"5. enter input"<<endl;
+// 	int n;
+// 	cout<<"Enter input: ";
+// 	cin>>inp;
+// 	while(true){
+// 		cout<<endl<<"Enter choice: ";
+// 		cin >>n;
+// 		switch(n){
+// 			case 1:cout<<"ones comp: "<<ones_comp(inp)<<endl;
+// 				break;
+// 			case 2:cout<<"twos comp: "<<twos_comp(inp)<<endl;
+// 				break;
+// 			case 3:cout<<"signed rep: "<<signed_rep(inp)<<endl;
+// 				break;
+// 			case 4:
+// 				cout<<"Enter bias: ";
+// 				cin>>bias;
+// 				cout<<"Bias rep: "<<bias_rep(inp, bias)<<endl;
+// 				break;
+// 			case 5:cout<<"Enter input: ";
+// 				cin >> inp;
+// 				break;
+// 		}
+// 	}
+// 	return 0;
+// }
 
 	
